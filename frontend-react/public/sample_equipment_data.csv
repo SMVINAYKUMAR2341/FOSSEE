@@ -1,0 +1,41 @@
+Equipment Name,Type,Flowrate,Pressure,Temperature
+Pump-001,Pump,150.5,45.2,85.3
+Pump-002,Pump,145.8,47.1,83.7
+Pump-003,Pump,155.2,44.8,86.1
+Pump-004,Pump,148.3,46.5,84.9
+Valve-001,Valve,120.0,50.1,78.5
+Valve-002,Valve,118.5,51.3,77.8
+Valve-003,Valve,122.3,49.7,79.2
+Valve-004,Valve,119.7,50.5,78.1
+Valve-005,Valve,121.1,50.0,78.9
+Tank-001,Tank,200.3,30.5,92.1
+Tank-002,Tank,195.7,31.2,91.5
+Tank-003,Tank,202.8,29.9,92.7
+Compressor-001,Compressor,180.5,65.3,95.2
+Compressor-002,Compressor,178.9,66.1,94.8
+Compressor-003,Compressor,182.3,64.7,95.6
+HeatExchanger-001,Heat Exchanger,165.2,55.4,88.3
+HeatExchanger-002,Heat Exchanger,167.8,54.9,89.1
+HeatExchanger-003,Heat Exchanger,163.5,56.2,87.7
+Reactor-001,Reactor,210.5,72.3,105.8
+Reactor-002,Reactor,208.9,73.1,104.9
+Reactor-003,Reactor,212.3,71.8,106.4
+Separator-001,Separator,135.7,42.5,82.3
+Separator-002,Separator,138.2,41.9,83.1
+Separator-003,Separator,133.9,43.2,81.7
+Mixer-001,Mixer,125.5,38.7,76.5
+Mixer-002,Mixer,127.8,37.9,77.2
+Mixer-003,Mixer,123.2,39.5,75.8
+Filter-001,Filter,142.3,48.2,80.5
+Filter-002,Filter,144.7,47.6,81.2
+Filter-003,Filter,140.1,48.9,79.8
+Condenser-001,Condenser,158.5,52.3,85.7
+Condenser-002,Condenser,160.2,51.8,86.3
+Condenser-003,Condenser,156.8,52.9,85.1
+Evaporator-001,Evaporator,175.3,58.7,98.2
+Evaporator-002,Evaporator,177.9,57.9,99.1
+Evaporator-003,Evaporator,173.1,59.4,97.5
+Distillation-001,Distillation Column,190.5,68.5,102.3
+Distillation-002,Distillation Column,192.8,67.9,103.1
+Distillation-003,Distillation Column,188.2,69.2,101.7
+Crystallizer-001,Crystallizer,155.7,45.8,88.9
