@@ -564,9 +564,3 @@ pip install PyQt5==5.15.10
 ## 📝 Admin Panel
 
 Access Django admin at: `http://localhost:8000/admin`
-
-Features:
-- View all uploaded datasets
-- Manage users
-- Inspect database records
->>>>>>> cb2ef2331792614d815666ce44f9a67b8a1a5b87
