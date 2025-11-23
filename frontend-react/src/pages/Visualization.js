@@ -309,49 +309,6 @@ const Visualization = () => {
           </div>
         )}
 
-        {/* ML Predictions Results */}
-        <div className="card prediction-card">
-          <h3>🔮 ML Model Predictions for All Equipment Types</h3>
-          {predictionsLoading && <p>Loading predictions...</p>}
-          {predictions && predictions.length > 0 ? (
-            <div>
-              <p className="ml-info">
-                Showing predictions for {predictions.length} equipment types
-              </p>
-              <div className="table-container">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Equipment Type</th>
-                      <th>Predicted Flowrate</th>
-                      <th>Predicted Pressure</th>
-                      <th>Predicted Temperature (°C)</th>
-                      <th>Predicted Temperature (°F)</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {predictions.map((pred, index) => (
-                      <tr key={index}>
-                        <td><strong>{pred.equipment_type}</strong></td>
-                        <td>{pred.predicted_flowrate}</td>
-                        <td>{pred.predicted_pressure}</td>
-                        <td>{pred.predicted_temperature}</td>
-                        <td>{((pred.predicted_temperature * 9/5) + 32).toFixed(2)}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          ) : (
-            !predictionsLoading && (
-              <p style={{ color: '#718096', textAlign: 'center', padding: 20 }}>
-                No predictions available. Please upload data to train the model first.
-              </p>
-            )
-          )}
-        </div>
-
         {/* Raw Data Table */}
         {dataset.raw_data && dataset.raw_data.length > 0 && (
           <div className="card">
